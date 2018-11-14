@@ -1,0 +1,53 @@
+# site settings
+title: Data For News
+subtitle:
+    en: Data projects about the Media
+    fr: Des projets ouverts sur les médias
+defaults:
+    -
+     scope:
+         path: ""
+     values:
+         lang: fr
+         base-url: "/"
+    -
+     scope:
+         path: en
+     values:
+         lang: en
+         base-url: "/en/"
+         
+email: contact@metada.org
+description: Open and data-driven projects to empower citizens with knowledge about the news they read.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://datafor.news # the base hostname & protocol for your site
+# author:
+# street_address: 1234 Somewhere Road
+# city: Nashville
+# state: TN
+# zip_code: 55555
+# country: United States of America
+# phone: (716) 555-5555
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 7
+
+# social settings
+# 500px_url:
+# facebook_url:
+github_id: datafornews
+twitter_id: DataForNews
+# gitlab_url: https://gitlab.com/u/andrewbanchich
+# googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+# instagram_url: https://instagram.com
+# linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+# pinterest_url:
+# slack_url:
+# twitter_url: https://twitter.com/andrewbanchich
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed

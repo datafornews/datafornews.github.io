@@ -1,0 +1,40 @@
+<!-- Wrapper -->
+<div id="wrapper">
+
+	<!-- Header -->
+	<header id="header" {% if page.layout=="landing" %} class="alt style2" {% endif %}{% if page.layout=="home" %} class="alt"
+	 {% endif %}>
+		<a href='{{ "" | absolute_url }}' class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle[page.lang] }}</span></a>
+		<nav>
+		{% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+		
+		{% if posts.size == 0 %}
+		{% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+		{% endif %}
+		<div class="lang">
+			<ul>
+				{% for post in posts %}
+				<li><a class="{{ post.lang }}" href="{{ site.base-url }}{{ post.url }}">{{ post.lang }}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
+			<a href="#menu">Menu</a>
+		</nav>
+	</header>
+
+	<!-- Menu -->
+	<nav id="menu">
+		<ul class="links">
+			{% assign posts=site.pages | where:"lang", page.lang %}
+			{% for page in posts %}
+			{% if page.layout == "home" %}
+			<li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+			{% endif %}
+			{% endfor %}
+			{% for page in posts %}
+			{% if page.layout != "home" and page.nav-menu == true %}
+			<li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+			{% endif %}
+			{% endfor %}
+		</ul>
+	</nav>
