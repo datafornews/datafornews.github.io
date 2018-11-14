@@ -1,10 +1,8 @@
-# Forty - Jekyll Theme
+# Data for News website [![Build Status](https://travis-ci.org/datafornews/datafornews.github.io.svg?branch=master)](https://travis-ci.org/datafornews/datafornews.github.io)
 
-A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
 
-![Forty Theme](assets/images/forty.jpg "Forty Theme")
 
-# How to Use
+# How to Use Jekyll Theme
 
 For those unfamiliar with how Jekyll works, check out [jekyllrb.com](https://jekyllrb.com/) for all the details, 
 or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), 
