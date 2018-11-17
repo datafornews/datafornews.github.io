@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Metada
-description: Plugin that show who own the media
+description: Who owns the media you read? Get the browser extension
 image: assets/images/metada-cover.png
 nav-menu: true
 lang-ref: metada
