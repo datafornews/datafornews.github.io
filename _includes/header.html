@@ -4,20 +4,28 @@
 	<!-- Header -->
 	<header id="header" {% if page.layout=="landing" %} class="alt style2" {% endif %}{% if page.layout=="home" %} class="alt"
 	 {% endif %}>
-		<a href='{{ "" | absolute_url }}' class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle[page.lang] }}</span></a>
-		<nav>
-		{% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
-		
-		{% if posts.size == 0 %}
-		{% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+		{% if page.lang == "fr" %}
+		{% assign home = '' %}
+		<a href="{{ home | absolute_url }}" class="logo"><strong>{{ site.title }}</strong> <span>{{
+				site.subtitle[page.lang] }}</span></a>
+		{% else %}
+		{% assign home = 'en' %}
+		<a href="{{ home | absolute_url }}" class="logo"><strong>{{ site.title }}</strong> <span>{{
+				site.subtitle[page.lang] }}</span></a>
 		{% endif %}
-		<div class="lang">
-			<ul>
-				{% for post in posts %}
-				<li><a class="{{ post.lang }}" href="{{ site.base-url }}{{ post.url }}">{{ post.lang }}</a></li>
-				{% endfor %}
-			</ul>
-		</div>
+		<nav>
+			{% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+
+			{% if posts.size == 0 %}
+			{% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+			{% endif %}
+			<div class="lang">
+				<ul>
+					{% for post in posts %}
+					<li><a class="{{ post.lang }}" href="{{ site.base-url }}{{ post.url }}">{{ post.lang }}</a></li>
+					{% endfor %}
+				</ul>
+			</div>
 			<a href="#menu">Menu</a>
 		</nav>
 	</header>
