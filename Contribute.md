@@ -7,22 +7,22 @@ nav-menu: true
 lang-ref: contribute
 lang: fr
 ---
-<!-- markdownlint-disable MD033 MD002 -->
+<!-- markdownlint-disable MD033 MD002 
 <!-- Main -->
-<div id="main">
+<!-- <div id="main"> -->
 
 <!-- One -->
-<section id="one">
+<!-- <section id="one">
     <div class="inner">
         <header class="major">
             <h2>Comment contribuer</h2>
         </header>
         <p>Data For News rassemble des bénévoles de tous horizons. Cela vous inclue! Que vous soyez développeur front/back, journaliste, data-scientist ou simplement intéressé par les médias il y a une place pour vous. Voici comment nous aider, et faire de Data For News votre projet aussi</p>
     </div>
-</section>
+</section> -->
 
 <!-- Two -->
-<section id="two" class="spotlights">
+<!-- <section id="two" class="spotlights">
     <section>
         <a href="generic.html" class="image">
             <img src="assets/images/pic08.jpg" alt="" data-position="center center" />
@@ -71,10 +71,10 @@ lang: fr
             </div>
         </div>
     </section>
-</section>
+</section> -->
 
 <!-- Three -->
-<section id="three">
+<!-- <section id="three">
     <div class="inner">
         <header class="major">
             <h2>Massa libero</h2>
@@ -84,6 +84,6 @@ lang: fr
             <li><a href="generic.html" class="button next">Get Started</a></li>
         </ul>
     </div>
-</section>
+</section> -->
 
-</div>
+<!-- </div> -->
