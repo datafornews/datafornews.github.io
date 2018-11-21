@@ -43,6 +43,16 @@
 		h1 {
 			font-size: 3.25em;
 		}
+		h3 {
+			margin-bottom: 80px;
+		}
+		p {
+			white-space: nowrap;
+		
+			@include breakpoint('medium'){
+				white-space: unset;
+			}
+		}
 
 		> .inner {
 			@include vendor('transition', (
@@ -74,6 +84,7 @@
 			.content {
 				@include vendor('display', 'flex');
 				@include vendor('align-items', 'center');
+				@include vendor('justify-content', 'space-between');
 				margin: 0 0 _size(element-margin) 0;
 
 				> * {

@@ -6,21 +6,53 @@
 
 /* Main */
 
-	#main {
-		background-color: _palette(bg-alt);
+    #main {
+        background-color: _palette(bg-alt);
 
-		> * {
-			border-top: solid 1px _palette(border);
+        > * {
+            border-top: solid 1px _palette(border);
 
-			&:first-child {
-				border-top: 0;
-			}
+            &:first-child {
+                border-top: 0;
+            }
 
-			@include inner;
-		}
+            @include inner;
+        }
 
-		&.alt {
-			background-color: transparent;
-			border-bottom: solid 1px _palette(border);
-		}
-	}
+        &.alt {
+            background-color: transparent;
+            border-bottom: solid 1px _palette(border);
+        }
+
+    }
+
+    #home-inputs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // &.special{
+        //     margin-left: 10px;
+        // }
+    }
+
+    #home-form{
+        margin: 0px;
+        width: 100%;
+        width: -moz-available;          /* WebKit-based browsers will ignore this. */
+        width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+        width: fill-available;
+    }
+
+    #home-submit{
+        margin-left: 10px;
+        font-size: 1.1rem;
+    }
+
+    #home-input-text{
+        background-color: _palette(bg);
+        font-size: 1.5rem;
+        min-width: 15rem;
+        @include breakpoint('small'){
+            min-width: 10rem;
+        }
+    }

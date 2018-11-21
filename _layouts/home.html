@@ -17,12 +17,19 @@
         <div class="inner">
             <header class="major">
                 <h1>{{ page.landing-title}}</h1>
+                <h3>{{ page.subtitle }}</h3>
             </header>
             <div class="content">
                 <p style="text-transform: uppercase;">{{ page.description }}</p>
-                <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
-                </ul>
+                <div id="home-form" class="actions">
+                    <form id="home-form" action="https://formspree.io/{{ site.email }}" method="POST">
+                        <div id="home-inputs">
+                            <input id="home-input-text" type="text" name="_join" id="email" placeholder="{{ page.placeholder }}"
+                                onfocus="this.placeholder = ''" onblur="this.placeholder = '{{ page.placeholder }}'" />
+                            <input id="home-submit" type="submit" value="{{ page.submit_text }}" class="special" />
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
