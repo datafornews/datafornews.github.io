@@ -17,7 +17,7 @@ defaults:
          lang: en
          base-url: "/en/"
          
-email: contact@metada.org
+email: hello@datafor.news
 description: Open and data-driven projects to empower citizens with knowledge about the news they read.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://datafor.news # the base hostname & protocol for your site
