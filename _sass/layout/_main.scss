@@ -50,8 +50,9 @@
 
     #home-input-text{
         background-color: _palette(bg);
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         min-width: 15rem;
+        border: 2px solid;
         @include breakpoint('small'){
             min-width: 10rem;
         }

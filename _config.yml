@@ -1,8 +1,8 @@
 # site settings
 title: Data For News
 subtitle:
-    en: Data projects about the Media
-    fr: Des projets ouverts sur les médias
+    en: The open community who cares about the Media
+    fr: La communauté ouverte sur les médias
 defaults:
     -
      scope:
@@ -18,7 +18,6 @@ defaults:
          base-url: "/en/"
          
 email: hello@datafor.news
-description: Open and data-driven projects to empower citizens with knowledge about the news they read.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://datafor.news # the base hostname & protocol for your site
 # author:
