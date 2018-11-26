@@ -1,7 +1,7 @@
 ---
 title: About us
 layout: post
-description: ''
+description: "Because there is more to a piece of news than its content, let's build open tools together to augment them!"
 image: assets/images/about.jpeg
 nav-menu: true
 lang-ref: about
