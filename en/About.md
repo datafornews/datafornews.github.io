@@ -14,4 +14,4 @@ lang: en
 
 That's why Data For News aims to gather a community of developers, designers, data scientists and journalists to develop tools that will help us to **better understand information**.
 
-If we already started some projects, or have ideas of others, we want this community to also be the place to develop *your* project. **Together** we will start off new means to digest news and information wisely by enriching existing ones.
+While we have already started some projects and have ideas for others, we also want this community to be the place for *your* project. **Together** we will start off new means to digest news and information wisely by enriching existing ones.
