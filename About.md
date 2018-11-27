@@ -1,7 +1,7 @@
 ---
 title: À propos
 layout: post
-description: ''
+description: "Parce que l'information tient à plus que le stricte contenu d'un article, construisons des outils open-sources pour l'augmenter."
 image: assets/images/about.jpeg
 nav-menu: true
 lang-ref: about
