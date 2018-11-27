@@ -10,7 +10,7 @@ lang: fr
 
 # Pourquoi Data For News
 
-**L'information tient à plus que le stricte contenu d'un article**. Elle est produite à un endroit, par des personnes et à un momment donnés. Elle fait partie d'un tout, d'un contexte qu'il est difficile de saisir seul·e.
+**L'information tient à plus que le stricte contenu d'un article**. Elle est produite à un endroit, par des personnes et à un moment donnés. Elle fait partie d'un tout, d'un contexte qu'il est difficile de saisir seul·e.
 
 C'est pourquoi Data For News s'est donné pour mission de rassembler des citoyens, développeurs, designers, data-scientists et journalistes pour penser les outils qui nous aideront à **mieux comprendre l'information**.
 
