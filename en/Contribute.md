@@ -2,7 +2,7 @@
 title: Contribute
 layout: landing
 description: "You're a dev, a journalist, someone who thinks straight and gets things done? Join us"
-image: assets/images/contribute.jpeg
+image: assets/images/handshake.jpeg
 nav-menu: true
 lang-ref: contribute
 lang: en

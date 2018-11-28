@@ -2,7 +2,7 @@
 title: Contribuer
 layout: post
 description: "Vous êtes développeur, journaliste, ou quelqu'un qui sait réfléchir et veut agir? Rejoignez nous"
-image: assets/images/contribute.jpeg
+image: assets/images/handshake.jpeg
 nav-menu: true
 lang-ref: contribute
 lang: fr
