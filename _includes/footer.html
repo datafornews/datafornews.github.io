@@ -4,7 +4,11 @@
 		<section>
 			<form action="https://formspree.io/{{ site.email }}" method="POST">
 				<div class="field half first">
+					{% if page.lang == "en" %}
 					<label for="name">Name</label>
+					{% else %}
+					<label for="name">Nom</label>
+					{% endif %}
 					<input type="text" name="name" id="name" />
 				</div>
 				<div class="field half">
@@ -16,8 +20,13 @@
 					<textarea name="message" id="message" rows="6"></textarea>
 				</div>
 				<ul class="actions">
+					{% if page.lang == "en" %}
 					<li><input type="submit" value="Send Message" class="special" /></li>
 					<li><input type="reset" value="Clear" /></li>
+					{% else %}
+					<li><input type="submit" value="Envoyer" class="special" /></li>
+					<li><input type="reset" value="Retour" /></li>
+					{% endif %}
 				</ul>
 			</form>
 		</section>
