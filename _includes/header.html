@@ -35,7 +35,7 @@
 		<ul class="links">
 			{% assign posts=site.pages | where:"lang", page.lang %}
 			{% for page in posts %}
-			{% if page.layout == "home" %}
+			{% if page.layout == "home" and page.nav-menu == true %}
 			<li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
 			{% endif %}
 			{% endfor %}
