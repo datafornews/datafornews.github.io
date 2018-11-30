@@ -14,5 +14,6 @@ description: "Des outils open-source pour produire plus d'info sur l'info et exp
 event: "Rencontrons-nous le 18 décembre à Paris pour débattre des projets!"
 event_link: "En savoir plus"
 event_target: "https://www.eventbrite.com/e/data-for-news-rencontrons-nous-tickets-53178195414"
+nav-menu: true
 ---
 

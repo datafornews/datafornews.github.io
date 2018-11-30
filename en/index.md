@@ -7,7 +7,7 @@ author: null
 show_tile: false
 lang-ref: index
 lang: en
-
+nav-menu: true
 call_to_action: "Stay tuned, join the community or submit a project:"
 placeholder: "your@mail.com"
 submit_text: "Go!"
