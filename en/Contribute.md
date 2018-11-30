@@ -1,7 +1,7 @@
 ---
 title: Contribute
 layout: landing
-description: "You're a dev, a journalist, someone who thinks straight and gets things done? Join us"
+description: "You're a dev, a journalist, a thoughtful citizen who gets things done? Join us"
 image: assets/images/handshake.jpeg
 nav-menu: true
 lang-ref: contribute
