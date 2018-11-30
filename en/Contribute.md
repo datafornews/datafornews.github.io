@@ -8,6 +8,10 @@ lang-ref: contribute
 lang: en
 ---
 
+Translation on the way, be patient :)
+
+(or contribute! [github.com/datafornews/datafornews.github.io](https://github.com/datafornews/datafornews.github.io))
+
 <!-- markdownlint-disable MD033 MD002 -->
 <!-- Main -->
 <!-- <div id="main"> -->
