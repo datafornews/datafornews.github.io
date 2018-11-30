@@ -15,7 +15,7 @@ lang: en
             <h2>BiasImpact</h2>
         </header>
         <h3>How to measure bias in media articles ?</h3>
-        <p>Répondre à cette question implique d'avoir un recul suffisant pour mettre en perspective l'ensemble du contenu qui a été produit par un media, avc</p>
+        <p></p>
     </div>
 </section> 
 

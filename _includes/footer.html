@@ -4,29 +4,45 @@
 		<section>
 			<form action="https://formspree.io/{{ site.email }}" method="POST">
 				<div class="field half first">
+					{% if page.lang == "en" %}
 					<label for="name">Name</label>
-					<input type="text" name="name" id="name" />
+					{% else %}
+					<label for="name">Nom</label>
+					{% endif %}
+					<input type="text" name="name" id="name" required/>
 				</div>
 				<div class="field half">
 					<label for="email">Email</label>
-					<input type="text" name="_replyto" id="email" />
+					<input type="email" name="_replyto" id="email" required/>
 				</div>
 				<div class="field">
 					<label for="message">Message</label>
-					<textarea name="message" id="message" rows="6"></textarea>
+					<textarea name="message" id="message" rows="6" required></textarea>
 				</div>
 				<ul class="actions">
+					{% if page.lang == "en" %}
 					<li><input type="submit" value="Send Message" class="special" /></li>
 					<li><input type="reset" value="Clear" /></li>
+					{% else %}
+					<li><input type="submit" value="Envoyer" class="special" /></li>
+					<li><input type="reset" value="Retour" /></li>
+					{% endif %}
 				</ul>
 			</form>
+			{% if page.lang == "en" %}
+			<p>Data For News complies with European regulations about privacy.</p>
+			<p>If you wish to unsubscribe, you can contact us at the address: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+			{% else %}
+			<p>Data For News respecte la loi Européenne RGPD relative à la protection des données personelles.</p>
+			<p>Vous pouvez vous désinscrire à tout moment en contactant l'adresse suivante : <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+			{% endif %}
 		</section>
 		<section class="split">
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-envelope"></span>
 					<h3>Email</h3>
-					<a href="#">{{ site.email }}</a>
+					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
 				</div>
 			</section>
 			<section>
