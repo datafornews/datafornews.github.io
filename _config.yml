@@ -1,8 +1,8 @@
 # site settings
 title: Data For News
 subtitle:
-    en: The open community who cares about the Media
-    fr: La communauté ouverte sur les médias
+    en: "Data For News : the open community who cares about the Media"
+    fr: "Data For News : la communauté ouverte sur les médias"
 defaults:
     -
      scope:
