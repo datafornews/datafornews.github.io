@@ -3,5 +3,7 @@ sudo: false
 cache: bundler
 rvm:
   - 2.4.1 
-install: gem install jekyll
+install:
+  - gem install jekyll
+  - bundle install 
 script: jekyll build -d public
