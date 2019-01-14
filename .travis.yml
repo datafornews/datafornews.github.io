@@ -6,4 +6,4 @@ rvm:
 install:
   - gem install jekyll
   - bundle install 
-script: jekyll build -d public
+script: bundle exec jekyll build -d public
